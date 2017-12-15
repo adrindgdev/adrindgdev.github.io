@@ -1,0 +1,40 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.box {
+  height: 150px;
+}
+
+
+header {
+  background: red;
+}
+
+main {
+  background: yellow;
+  width: 40%;
+  float: left;
+}
+
+aside {
+  background: green;
+  width: 40%;
+  float:right ;
+}
+
+footer {
+  background: blue;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear:both;
+}
+
